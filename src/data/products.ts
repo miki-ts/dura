@@ -284,7 +284,7 @@ export const PRODUCTS: Product[] = [
     description: 'Interlocking oval links cast in rich gold with substantial weight and effortless drape.',
     material: 'Heavy 18k Yellow Gold Vermeil',
     images: [
-      '/assets/11.png',
+      '/public/assets/11.png',
       '/public/assets/11.png',
     ],
     featured: false,
