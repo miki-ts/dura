@@ -19,7 +19,7 @@ export const OrderSuccessPage: React.FC = () => {
       {/* 1. Hero Gift Packaging Image matching Figma image 2 screen 6 */}
       <div className="relative rounded-lg overflow-hidden aspect-[16/10] sm:aspect-[16/9] w-full bg-[#F1E4D8] border border-[#E7D9CC] shadow-card">
         <img
-          src="/public/assets/package.jpg"
+          src="/assets/package.jpg"
           alt="Dura signature gift boxes with ribbons"
           className="w-full h-full object-cover"
         />

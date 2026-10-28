@@ -17,7 +17,7 @@ export const HomePage: React.FC = () => {
       <section className="relative px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pt-2 sm:pt-4">
         <div className="relative rounded-lg sm:rounded-lg overflow-hidden aspect-[4/5] sm:aspect-[16/9] lg:aspect-[21/9] w-full bg-[#F1E4D8] border border-[#E7D9CC] shadow-card">
           <img
-            src="/public/assets/hero.jpg"
+            src="/assets/hero.jpg"
             alt="DURA by LIYA campaign model surrounded by luxury jewelry boxes"
             className="w-full h-full object-cover object-center sm:object-top"
           />
@@ -63,25 +63,25 @@ export const HomePage: React.FC = () => {
             {
               name: 'Earrings',
               cat: 'Earrings',
-              img: '/public/assets/earrings.jpg',
+              img: '/assets/earrings.jpg',
               desc: 'Pearls & sculptural hoops',
             },
             {
               name: 'Necklaces',
               cat: 'Necklaces',
-              img: '/public/assets/necklaces.jpg',
+              img: '/assets/necklaces.jpg',
               desc: 'Baroque strands & diamonds',
             },
             {
               name: 'Rings',
               cat: 'Rings',
-              img: '/public/assets/rings.jpg',
+              img: '/assets/rings.jpg',
               desc: 'Hammered gold & gemstones',
             },
             {
               name: 'Bracelets',
               cat: 'Bracelets',
-              img: '/public/assets/bracelets.jpg',
+              img: '/assets/bracelets.jpg',
               desc: 'Seed pearl cuffs & chains',
             },
           ].map((item) => (
@@ -141,7 +141,7 @@ export const HomePage: React.FC = () => {
           {/* Editorial Visual */}
           <div className="relative aspect-[4/3] rounded-lg sm:rounded-lg overflow-hidden bg-[#F1E4D8] border border-[#E7D9CC]/60 shadow-sm">
             <img
-              src="/public/assets/featured.jpg"
+              src="/assets/featured.jpg"
               alt="Bridal Radiance fine jewelry display"
               className="w-full h-full object-cover"
             />
