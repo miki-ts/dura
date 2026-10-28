@@ -1,3 +1,4 @@
+
 {
   "name": "dura-by-liya",
   "private": true,
@@ -5,14 +6,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "node ./node_modules/typescript/bin/tsc && node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "clsx": "^2.1.1",
     "lucide-react": "^0.469.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "react-router-dom": "^7.18.5",
     "tailwind-merge": "^2.5.5"
   },
