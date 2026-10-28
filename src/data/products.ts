@@ -136,8 +136,8 @@ export const PRODUCTS: Product[] = [
     description: 'Hand-knotted baroque cultured pearls finished with our signature sculptural gold toggle.',
     material: 'Natural Freshwater Pearls & 18k Gold Vermeil Clasp',
     images: [
-      '/public/assets/5.png',
-      '/public/assets/5.png',
+      '/dist/assets/5.png',
+      '/dist/assets/5.png',
     ],
     featured: true,
     isBestseller: true,
@@ -167,8 +167,8 @@ export const PRODUCTS: Product[] = [
     description: 'An ethereal line of seed pearls accented by delicate brushed gold beads.',
     material: 'Micro Cultured Seed Pearls & 14k Gold Spacers',
     images: [
-      '/public/assets/6.png',
-      '/public/assets/6.png',
+      '/dist/assets/6.png',
+      '/dist/assets/6.png',
     ],
     featured: true,
     isBestseller: false,
