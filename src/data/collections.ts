@@ -1,0 +1,55 @@
+import { Collection } from '../types/product';
+
+export const COLLECTIONS: Collection[] = [
+  {
+    id: 'bridal-radiance',
+    name: 'Bridal Radiance',
+    slug: 'bridal-radiance',
+    subtitle: 'Radiant recommendations for golden allure',
+    description: 'Refined and luminous, designed to be worn with poise on your most memorable celebrations and vows.',
+    heroImage: '/dist/assets/featured.jpg',
+    curatedImage: '/dist/assets/featured.jpg',
+    featuredProductSlugs: ['bridal-pearl-set', 'pearl-drop-earrings', 'timeless-pearl-necklace'],
+  },
+  {
+    id: 'timeless-pearls',
+    name: 'Timeless Pearls',
+    slug: 'timeless-pearls',
+    subtitle: 'Luminous organic pearls hand-selected for grace',
+    description: 'Each cultured freshwater pearl carries a singular natural luster, celebrating feminine serenity and enduring craftsmanship.',
+    heroImage: '/dist/assets/everyday.png',
+    curatedImage: '/dist/assets/everyday.png',
+    featuredProductSlugs: ['pearl-drop-earrings', 'double-pearl-studs', 'timeless-pearl-necklace', 'dainty-pearl-bracelet'],
+  },
+  {
+    id: 'golden-essentials',
+    name: 'Golden Essentials',
+    slug: 'golden-essentials',
+    subtitle: 'Warm 18k gold silhouettes for every waking hour',
+    description: 'Sculptural forms in 18k solid gold and heavy vermeil, cast with soft contours to become an intimate second skin.',
+    heroImage: '/dist/assets/golden.jpg',
+    curatedImage: '/dist/assets/golden.jpg',
+    featuredProductSlugs: ['elegant-gold-hoops', 'minimal-gold-ring', 'pearl-gold-necklace', 'solid-gold-serpent-ring'],
+  },
+  {
+    id: 'modern-heirlooms',
+    name: 'Modern Heirlooms',
+    slug: 'modern-heirlooms',
+    subtitle: 'Statement pieces passed through generations',
+    description: 'Intricately handcrafted jewelry designed to capture legacy, wisdom, and the poetry of enduring personal bonds.',
+    heroImage: '/dist/assets/modern.jpg',
+    curatedImage: '/dist/assets/modern.jpg',
+    featuredProductSlugs: ['radiant-diamond-necklace', 'celestial-diamond-ring', 'baroque-pearl-pendant'],
+  },
+  {
+    id: 'everyday-elegance',
+    name: 'Everyday Elegance',
+    slug: 'everyday-elegance',
+    subtitle: 'Subtle grace effortlessly styled',
+    description: 'Understated jewelry that elevates casual linen, crisp shirting, and quiet evening moments with poise.',
+    heroImage: '/dist/assets/everyday1.jpg',
+    curatedImage: '/dist/assets/everyday1.jpg',
+    featuredProductSlugs: ['double-pearl-studs', 'dainty-pearl-bracelet', 'minimal-gold-ring'],
+  },
+  
+];
