@@ -6,9 +6,7 @@ export const TermsOfServicePage: React.FC = () => {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
       {/* Header */}
       <div className="text-center space-y-4">
-        <div className="w-16 h-16 rounded-lg bg-[#F1E4D8] border border-[#E7D9CC] flex items-center justify-center text-[#B89A75] mx-auto">
-          <FileText className="w-8 h-8" />
-        </div>
+        
         <h1 className="font-serif text-4xl text-[#30251F]">Terms of Service</h1>
         <p className="text-sm text-[#827166] max-w-2xl mx-auto">
           Last updated: October 2026

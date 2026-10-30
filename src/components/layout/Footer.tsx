@@ -147,7 +147,7 @@ export const Footer: React.FC = () => {
                 aria-label="Follow us on Instagram"
               >
                 <Instagram className="w-5 h-5" />
-              </a>
+              </a> 
             </div>
           </div>
 
