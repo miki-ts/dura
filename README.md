@@ -6,7 +6,6 @@
 In your terminal:
 
 ```bash
-cd "C:\Users\tesfa\Downloads\dura"
 npm install
 npm run dev
 ```
