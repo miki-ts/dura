@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
           <div className="text-center lg:text-left">
             <BrandLogo size="md" asLink={true} className="lg:items-start mb-4" />
             <p className="text-sm text-[#827166] leading-relaxed max-w-sm mx-auto lg:mx-0 mt-3 font-serif italic">
-              "Where elegance meets intention. Handcrafted fine jewelry designed to celebrate quiet poise and enduring personal ceremony."
+              "Where elegance meets intention.jewelry designed to celebrate quiet poise and enduring personal ceremony."
             </p>
             
           </div>
